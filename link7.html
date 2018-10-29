@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PopO</title>
+  <link rel="icon" href="img/00.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+
+  <div class="row">
+    <div class="column">
+      <div class="column" style="margin: 0vh 2.5vh; padding: 1vw;">
+        <p class="intro">
+          name:<br>
+          <span class="title">Beyond the Door</span><br>
+          birth: 14. 10. 2018<br>parents:
+          <span class="link2"><span onclick="myFunction()">dohee.jeon</span></span>
+          <span id="myself"></span><br> nationality: Republic of Korea<br> born in Republic of Korea<br> hobby: error 440<br><br>vr/ game/ 3d/ modeling/ interaction/ sound desing<br><br>
+
+
+          <b>I have an anxiety.<br>
+            The fragments of anxiety are scattered in my mind's room. <br>
+            I find pieces of my anxiety through the door.<br>
+            And I will pass through another door without anxiety. </b>
+        </p>
+      </div>
+    <div class="column">
+      <div class="img-content" style="margin: 7vh 0 5vh 1vw;">
+      <img style="width: 45vh;" src="img/q2.jpg"><br>
+      <img style="width: 45vh;" src="img/q1.jpg">
+      </div>
+    </div>
+
+    </div>
+    <script>
+    function myFunction() {
+    var x = document.getElementById("myself");
+    if (x.innerHTML === "") {
+        x.innerHTML = "<br>skill: Html/ Css/ Jquery/ AfterEffect/ Premier/ Cinema4d/ Unity/ Photoshop/ Illustrator/ Indesign";
+    } else {
+        x.innerHTML = "";
+    }
+  }
+    </script>
+    <div class="column" style="margin: 5vh 0 0 0">
+      <iframe src="https://player.vimeo.com/video/296357302" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class="footer">
+<a href="index.html">
+    <div id="log"></div>
+  </div>
+</a>
+
+</body>
+
+</html>

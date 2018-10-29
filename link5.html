@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PopO</title>
+  <link rel="icon" href="img/00.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+
+  <div class="row">
+    <div class="column">
+      <div class="column" style="margin: 0vh 2.5vh; padding: 1vw;">
+        <p class="intro">
+          name:<br>
+          <span class="title">Making-Friends</span><br>
+          birth: 13. 01. 2018<br> project: making freinds<br>parents:
+          <span class="link2"><span onclick="myFunction()">dohee.jeon</span></span>
+          <span id="myself"></span><br> nationality: Republic of Korea<br> (South Korea)1/2, German 1/2<br> born in Stuttgart, Germany<br> hobby: error 440<br><br>social/ community/ advertisement/ website/ wanted<br><br>
+          <b> I recruit artist.<br>
+              If you have interest in my work please send me a message.<br>
+              I am looking forward your contact!<br>
+              HAve FUn!</b>
+        </p>
+        <div>
+          <a class="link" href="https://o986o.github.io/make-friends/" target="_blank">website-link</a>
+        </div>
+      </div>
+  </div>
+
+  <script>
+  function myFunction() {
+  var x = document.getElementById("myself");
+  if (x.innerHTML === "") {
+      x.innerHTML = "<br>skill: Html/ Css/ Jquery/ AfterEffect/ Premier/ Cinema4d/ Unity/ Photoshop/ Illustrator/ Indesign";
+  } else {
+      x.innerHTML = "";
+  }
+}
+  </script>
+
+  <div class="column">
+    <div class="img-content" style="margin: 5vh 0 20vh 1vw; >
+      <div class="img-content">
+        <a data-fancybox="gallery" href="img/001.jpg"><img style="width: 45vh;" src="img/001.jpg"></a><br>
+        <a data-fancybox="gallery" href="img/10.png"><img style="width: 45vh;" src="img/10.png"></a>
+  </div>
+  </div>
+  </div>
+
+  <div class="footer">
+<a href="index.html">
+    <div id="log"></div>
+  </div>
+</a>
+
+</body>
+
+</html>

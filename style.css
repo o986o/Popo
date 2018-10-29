@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+}
+
+.txt{
+  margin-top: -15vh;
+  margin-left: 80vw;
+}
+.box{
+  width: 10vh;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 0.5vw;
+}
+
+.intro a{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.intro a:hover {color: white}
+
+.footer a{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.footer a:hover {color: white}
+
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+}
+
+
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 1vw;
+}
+
+
+.intro{
+  font-family:Helvetica;
+  font-size: 0.7em;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.intro a:hover {color: white}
+
+.intro .title{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.link{
+  font-size: 0.8em;
+  font-weight: bold;
+  text-decoration:none;
+  background-color: #b3b3b3;
+  color: black;
+}
+
+.link2 {
+  text-decoration:none;
+  background-color: #b3b3b3;
+  color: black;
+  cursor: pointer;
+}
+
+.link2:hover {color: white}
+
+.footer {
+    position: fixed;
+    bottom: 8vh;
+    width: 100vw;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+
+    .img-content{
+      text-align:center;
+    }
+}
+
+#log{
+  font-size: 0.7em;
+}
+
+#myself{
+  color: magenta;
+}
+
+button:focus {outline:0;}

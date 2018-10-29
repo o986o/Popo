@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/0.gif");
+    background-size: 40vw;
+    background-repeat: no-repeat;
+    background-position: center 5vh;
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    padding: 2vw 3.5vw;
+    font-size: 0.7em;
+    height: 40vh;
+}
+
+.link2 {
+  text-decoration:none;
+  background-color: #b3b3b3;
+  color: black;
+  cursor: pointer;
+}
+
+.link2:hover {color: white}
+
+.footer a{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.footer a:hover {color: white}
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+	  width: 38vw;
+    height: 40vh;
+	  margin: -7vh 34.5vw;
+}
+
+.row2 {
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+	  width: 38vw;
+    height: 40vh;
+	  margin: -7vh 34.5vw;
+}
+
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+}
+
+.dropbtn {
+    background-color: #b3b3b3;
+    font-size: 0.8em;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background: white;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 2px 3px;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: yellow}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    bottom: 8vh;
+    width: 100vw;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}
+
+#log{
+  font-size: 0.7em;
+  outline: none;
+}
+
+#myself{
+  color: magenta;
+}
+
+.link{
+  text-decoration:none;
+  background-color: #b3b3b3;
+  color: black;
+}
+
+button:focus {outline:0;}

@@ -9,6 +9,11 @@
   <link rel="icon" href="img/00.png">
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script type="text/javascript" src="script.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="popup-video.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
 </head>
 
 <body>
@@ -36,6 +41,21 @@
   }
 }
   </script>
+
+    <div class="videow">
+       <a href="#videoStory" class="button more" id="videoLink">Watch video<i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i></a>
+       <div id="videoStory" class="mfp-hide" style="max-width: 62%; margin: 0 auto;">
+          <iframe width="853" height="480" src="https://player.vimeo.com/video/301033197" frameborder="0" allowfullscreen></iframe>
+       </div>
+    </div>
+
+    <script>
+    $('#videoLink')
+    .magnificPopup({
+    	  type:'inline',
+    	  midClick: true
+    })
+    </script>
 
 
   <div class="row">
@@ -89,7 +109,6 @@
     </div>
   </div>
   </div>
-
 
   <div class="footer">
     <a href="index.html">
